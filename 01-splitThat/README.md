@@ -5,5 +5,4 @@ Day 18: https://www.hackingwithswift.com/100/swiftui/16
 
 ## Screenshoots
 
-![emptyScreen](screenshots/emptyScreen.png)
-![filledScreen](screenshots/filledScreen.png)
+<img src="screenshots/emptyScreen.png" width="414" height="896"/> <img src="screenshots/filledScreen.png" width="414" height="896"/>
