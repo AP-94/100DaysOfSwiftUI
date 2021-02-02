@@ -1,6 +1,6 @@
 # 100DaysOfSwiftUI
 
-Here you will find my journet through the "100 days of swiftUI" course of Paul Hudson, from HackingSwift.
+Here you will find my journet through the "100 days of swiftUI" course of Paul Hudson, from HackingSwift.<br/>
 Here is the link of the free course -> https://www.hackingwithswift.com/100/swiftui
 
 ## Current Status
