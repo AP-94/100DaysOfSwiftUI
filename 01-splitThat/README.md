@@ -1,5 +1,9 @@
-# splitThat
-First Project in SwiftUI.
-Project #1 of "100 days of SwiftUI" course. (Day 18)
+# Project 01 - WeSplit
 
-The course is free, this is the link -> https://www.hackingwithswift.com/100/swiftui
+Project #1 of "100 days of SwiftUI" course.</br>
+Day 18: https://www.hackingwithswift.com/100/swiftui/16
+
+## Screenshoots
+
+![emptyScreen](screenshots/emptyScreen.png)
+![filledScreen](screenshots/filledScreen.png)
