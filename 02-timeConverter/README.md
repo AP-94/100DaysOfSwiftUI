@@ -1,7 +1,7 @@
-# Project 02 - ChallengeDay
+# Project Challenge - ChallengeDay
 
-Project #2 of "100 days of SwiftUI" course.</br>
-Day 18: https://www.hackingwithswift.com/100/swiftui/19
+Project Challenge of "100 days of SwiftUI" course.</br>
+Day 18: https://www.hackingwithswift.com/100/swiftui/18
 
 ## Screenshoots
 

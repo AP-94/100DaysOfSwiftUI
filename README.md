@@ -5,10 +5,12 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 02/02/2021. Currently in day 20 of 100 days of the course.
+Last updated 03/02/2021. Currently in day 22 of 100 days of the course.
 
 ## Projects
 
 [Project 1](01-splitThat) - *WeSplit*
 
-[Project 2](02-timeConverter) - *ChallengeDay*
+[Project Challenge](02-timeConverter) - *ChallengeDay*
+
+[Project 2](03-guessTheFlag) - *GuessTheFlag*
