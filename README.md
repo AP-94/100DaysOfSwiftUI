@@ -14,3 +14,6 @@ Last updated 03/02/2021. Currently in day 22 of 100 days of the course.
 [Project Challenge](02-timeConverter) - *ChallengeDay*
 
 [Project 2](03-guessTheFlag) - *GuessTheFlag*
+
+
+[Project 3 Challenge](04-ViewsAndModifiers) - *ViewsAndModifiers*
