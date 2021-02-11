@@ -5,7 +5,7 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 09/02/2021. Currently in day 24 of 100 days of the course.
+Last updated 12/02/2021. Currently in day 26 of 100 days of the course.
 
 ## Projects
 
@@ -15,5 +15,8 @@ Last updated 09/02/2021. Currently in day 24 of 100 days of the course.
 
 [Project 2](03-guessTheFlag) - *GuessTheFlag*
 
-
 [Project 3 Challenge](04-ViewsAndModifiers) - *ViewsAndModifiers*
+
+[Milestone Project 1-3](05-MilestoneProject1-3) - *RockPaperScissors*
+
+
