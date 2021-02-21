@@ -15,7 +15,7 @@ Last updated 21/02/2021. Currently in day 30 of 100 days of the course.
 
 [Project 2](03-guessTheFlag) - *GuessTheFlag*
 
-[Project 3 Challenge](04-ViewsAndModifiers) - *ViewsAndModifiers*
+[Project 3](04-ViewsAndModifiers) - *ViewsAndModifiers*
 
 [Milestone Project 1-3](05-MilestoneProject1-3) - *RockPaperScissors*
 
