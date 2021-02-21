@@ -21,6 +21,6 @@ Last updated 21/02/2021. Currently in day 30 of 100 days of the course.
 
 [Project 4](06-BetterRest) - *BetterRest*
 
-[Project 5](05-WordScramble) - *WordScramble*
+[Project 5](07-WordScramble) - *WordScramble*
 
 
