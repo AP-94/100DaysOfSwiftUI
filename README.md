@@ -5,7 +5,7 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 16/02/2021. Currently in day 28 of 100 days of the course.
+Last updated 21/02/2021. Currently in day 30 of 100 days of the course.
 
 ## Projects
 
@@ -20,5 +20,7 @@ Last updated 16/02/2021. Currently in day 28 of 100 days of the course.
 [Milestone Project 1-3](05-MilestoneProject1-3) - *RockPaperScissors*
 
 [Project 4](06-BetterRest) - *BetterRest*
+
+[Project 5](05-WordScramble) - *WordScramble*
 
 
