@@ -1,4 +1,4 @@
-# Project Challenge - ChallengeDay
+# Project Time Converter - ChallengeDay
 
 Project Challenge of "100 days of SwiftUI" course.</br>
 Day 18: https://www.hackingwithswift.com/100/swiftui/18
