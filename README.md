@@ -11,7 +11,7 @@ Last updated 21/02/2021. Currently in day 30 of 100 days of the course.
 
 [Project 1](01-splitThat) - *WeSplit*
 
-[Project Challenge](02-timeConverter) - *ChallengeDay*
+[Challenge: Time Converter](02-timeConverter) - *ChallengeDay: TimeConverter*
 
 [Project 2](03-guessTheFlag) - *GuessTheFlag*
 
