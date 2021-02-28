@@ -5,7 +5,7 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 21/02/2021. Currently in day 30 of 100 days of the course.
+Last updated 28/02/2021. Currently in day 35 of 100 days of the course.
 
 ## Projects
 
@@ -24,7 +24,5 @@ Last updated 21/02/2021. Currently in day 30 of 100 days of the course.
 [Project 5](07-WordScramble) - *WordScramble*
 
 [Project 6](08-Animations) - *Animations*
-
-[Challenges Project 6](09-ChallengesProject6) - *Challenges in Project Guess The Flag*
 
 

@@ -5,7 +5,7 @@ Day 32: https://www.hackingwithswift.com/100/swiftui/32
 
 ## Solution to challenges
 
-You can fin the solutions to this challenge here -> [Challenges Project 6](09-ChallengesProject6) - *Challenges Project 6* 
+You can fin the solutions to this challenge here -> (Challenges) - *Challenges* 
 
 ## Screenshoots
 
