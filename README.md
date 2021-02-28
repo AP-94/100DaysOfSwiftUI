@@ -25,6 +25,6 @@ Last updated 21/02/2021. Currently in day 30 of 100 days of the course.
 
 [Project 6](08-Animations) - *Animations*
 
-[Challenges Project 6](09-ChallengesProject6) - *Challenges Project 6*
+[Challenges Project 6](09-ChallengesProject6) - *Challenges in Project Guess The Flag*
 
 
