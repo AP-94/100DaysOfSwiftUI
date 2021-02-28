@@ -1,4 +1,4 @@
-# Project 6 Challenges
+# Project 6 challenges: Challenges in Project Guess The Flag
 
 Project #6 of "100 days of SwiftUI" course.</br>
 Day 34: https://www.hackingwithswift.com/100/swiftui/34
