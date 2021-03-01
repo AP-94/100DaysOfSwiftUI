@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct AnimatedButtonTwo: View {
-    @State private var animationAmmount = 0.0
+    @State private var animationAmmount = 360.0
     @State private var enabled = false
     
     var body: some View {
         VStack {
             Button("Tap Me") {
-                withAnimation (.interpolatingSpring(stiffness: 5, damping: 1)) {
+                withAnimation (.interpolatingSpring(stiffness: 5, damping: 5)) {
                     self.animationAmmount += 360
                 }
             }

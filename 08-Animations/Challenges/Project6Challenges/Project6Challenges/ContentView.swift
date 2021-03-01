@@ -21,14 +21,30 @@ struct FlagImage: View {
     }
 }
 
+struct Shake: GeometryEffect {
+    var amount: CGFloat = 10
+    var shakesPerUnit = 3
+    var animatableData: CGFloat
+
+    func effectValue(size: CGSize) -> ProjectionTransform {
+        ProjectionTransform(CGAffineTransform(translationX:
+            amount * sin(animatableData * .pi * CGFloat(shakesPerUnit)),
+            y: 0))
+    }
+}
+
 struct ContentView: View {
     @State private var countries = ["Estonia","France","Germany","Ireland","Italy", "Nigeria", "Poland", "Russia","Spain","UK","US"].shuffled()
     
     @State private var correctAnswer = Int.random(in: 0...2)
-    
-    @State private var showingScore = false
-    @State private var scoreTitle = ""
     @State private var score = 0
+    @State private var attempts = [0, 0, 0]
+    
+//    Project 6 / Challenge 1
+    @State private var spinYAnimationAmounts = [0.0, 0.0, 0.0]
+    
+//    Project 6 / Challenge 2
+    @State private var changeOpacity = false
 
     var body: some View {
         ZStack {
@@ -52,6 +68,12 @@ struct ContentView: View {
                     }) {
                         //Project 3 challenge
                         FlagImage(name: self.countries[number])
+                            //Project 6 challenges
+                            .rotation3DEffect(
+                                .degrees(self.spinYAnimationAmounts[number]),
+                                axis: (x: 0, y: 1, z: 0))
+                            .opacity(self.changeOpacity ? (number == correctAnswer ? 1 : 0.25) : 1)
+                            .modifier(Shake(animatableData: CGFloat(attempts[number])))
                     }
                 }
                 
@@ -70,28 +92,46 @@ struct ContentView: View {
                 
             }
         }
-        .alert(isPresented: $showingScore) {
-            Alert(title: Text(scoreTitle), message: Text("Your score is \(score)"), dismissButton: .default(Text("Continue"), action: {
-                self.askQuestion()
-            }))
-        }
     }
     
     func flagTapped(_ number: Int) {
-        if number == correctAnswer {
-            scoreTitle = "Correct"
-            score += 1
-        } else {
-            scoreTitle = "Wrong! That's the flag of \(countries[number])"
-            if score != 0 {
-                score -= 1
-            }
+        
+        //Opacity change
+        withAnimation (Animation.easeInOut(duration: 0.5)) {
+            self.changeOpacity = true
         }
         
-        showingScore = true
+        if number == correctAnswer {
+            
+            //360 degrees animation
+            withAnimation (.interpolatingSpring(stiffness: 10, damping: 5)) {
+                self.spinYAnimationAmounts[number] += 360
+                score += 1
+            }
+          
+        } else {
+            
+            //Shake animation challenge 3
+            withAnimation (.default) {
+                self.attempts[number] += 1
+                
+                if score != 0 {
+                    score -= 1
+                }
+            }
+            
+        }
+        
+        // DispatchQueue with delay for let the animations play normal and letting the user the time to see if the answer was right or bad
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                    self.askQuestion()
+                }
     }
     
     func askQuestion() {
+        
+        //Changing the opacity to false again
+        changeOpacity = false
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
     }
