@@ -18,9 +18,7 @@ Also in adition to all this, i added a delay to the app, this is for letting the
 
 >3. And if you tap on the wrong flag? Well, that’s down to you – get creative!
 
-This time i was trying to do a shaking animation my self, but i ended using this struct from spinYAnimationAmounts
-
-https://www.objc.io/blog/2019/10/01/swiftui-shake-animation/
+This time i was trying to do a shaking animation my self, but i ended using this struct from https://www.objc.io/blog/2019/10/01/swiftui-shake-animation/
 
 In the same way we did it with the 360 rotation, i created a array of attemps for each button.
 
