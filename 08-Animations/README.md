@@ -5,11 +5,11 @@ Day 32: https://www.hackingwithswift.com/100/swiftui/32
 
 ## Solution to challenges
 
-You can fin the solutions to this challenge here -> (Challenges) - *Challenges* 
+You can fin the solutions to this challenge here -> [Challenges](Challenges)
 
 ## Screenshoots
 
-<img src="screenshots/navigationScreen.png" width="414" height="896"/><img src="screenshots/helloScreen.png" width="414" height="896"/>
+<img src="screenshots/navigationMenu.png" width="414" height="896"/><img src="screenshots/helloScreen.png" width="414" height="896"/>
 
 
 
