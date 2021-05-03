@@ -1,7 +1,7 @@
 # Milestone Project 1-3
 ## Rock Paper Scissors
 
-Project #5 of "100 days of SwiftUI" course.</br>
+Milestone Project 1-3 of "100 days of SwiftUI" course.</br>
 Day 25: https://www.hackingwithswift.com/100/swiftui/25
 
 ## Challenge
