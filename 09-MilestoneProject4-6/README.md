@@ -1,7 +1,7 @@
 # Milestone Project 4-6
 ## Multiplication Tables
 
-Project #7 of "100 days of SwiftUI" course.</br>
+Milestone Project 4-6 of "100 days of SwiftUI" course.</br>
 Day 35: https://www.hackingwithswift.com/100/swiftui/35
 
 The only thing its not present in this challenge, its the animation part.
