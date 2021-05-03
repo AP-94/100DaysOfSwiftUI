@@ -1,6 +1,6 @@
 # Project 7 - iExpense
 
-Project #8 of "100 days of SwiftUI" course.</br>
+Project #7 of "100 days of SwiftUI" course.</br>
 Day 38: https://www.hackingwithswift.com/100/swiftui/38
 
 ## Challenge
