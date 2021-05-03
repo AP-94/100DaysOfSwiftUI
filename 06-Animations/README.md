@@ -1,4 +1,4 @@
-# Animations
+# Project 6 - Animations
 
 Project #6 of "100 days of SwiftUI" course.</br>
 Day 32: https://www.hackingwithswift.com/100/swiftui/32

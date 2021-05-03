@@ -11,20 +11,20 @@ Last updated 03/05/2021. Currently in day 39 of 100 days of the course.
 
 [Project 1](01-splitThat) - *WeSplit*
 
-[Challenge: Time Converter](02-timeConverter) - *ChallengeDay: TimeConverter*
+[Challenge: Time Converter](Challenge-Day) - *ChallengeDay: TimeConverter*
 
-[Project 2](03-guessTheFlag) - *GuessTheFlag*
+[Project 2](02-guessTheFlag) - *GuessTheFlag*
 
-[Project 3](04-ViewsAndModifiers) - *ViewsAndModifiers*
+[Project 3](03-ViewsAndModifiers) - *ViewsAndModifiers*
 
-[Milestone Project 1-3](05-MilestoneProject1-3) - *RockPaperScissors*
+[Milestone Project 1-3](MilestoneProject 1-3) - *RockPaperScissors*
 
-[Project 4](06-BetterRest) - *BetterRest*
+[Project 4](04-BetterRest) - *BetterRest*
 
-[Project 5](07-WordScramble) - *WordScramble*
+[Project 5](05-WordScramble) - *WordScramble*
 
-[Project 6](08-Animations) - *Animations*
+[Project 6](06-Animations) - *Animations*
 
-[Milestone Project 4-6](09-MilestoneProject4-6) - *Multiplication Tables*
+[Milestone Project 4-6](MilestoneProject 4-6) - *Multiplication Tables*
 
-[Project 7](10-iExpense) - *iExpense*
+[Project 7](07-iExpense) - *iExpense*
