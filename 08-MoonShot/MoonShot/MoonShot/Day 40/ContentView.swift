@@ -43,7 +43,7 @@ struct ContentView: View {
             //CHALLENGE 3
             .navigationBarItems(trailing: Button("\(barButtonName)") {
                 showMissionsDate.toggle()
-                barButtonName = showMissionsDate ? "Show Launch Date" : "Show Crew Names"
+                barButtonName = showMissionsDate ? "Show Crew Names" : "Show Launch Date"
             })
         }
     }
