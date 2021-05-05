@@ -5,7 +5,7 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 03/05/2021. Currently in day 39 of 100 days of the course.
+Last updated 06/05/2021. Currently in day 43 of 100 days of the course.
 
 ## Projects
 
@@ -28,3 +28,5 @@ Last updated 03/05/2021. Currently in day 39 of 100 days of the course.
 [Milestone Project 4-6](MilestoneProject4-6) - *Multiplication Tables*
 
 [Project 7](07-iExpense) - *iExpense*
+
+[Project 8](08-MoonShot) - *MoonShot*
