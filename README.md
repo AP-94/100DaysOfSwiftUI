@@ -5,7 +5,7 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 06/05/2021. Currently in day 43 of 100 days of the course.
+Last updated 18/05/2021. Currently in day 47 of 100 days of the course.
 
 ## Projects
 
@@ -30,3 +30,5 @@ Last updated 06/05/2021. Currently in day 43 of 100 days of the course.
 [Project 7](07-iExpense) - *iExpense*
 
 [Project 8](08-MoonShot) - *MoonShot*
+
+[Project 9](09-Drawing) - *Drawing*
