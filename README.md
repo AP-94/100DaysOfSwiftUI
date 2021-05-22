@@ -32,3 +32,5 @@ Last updated 18/05/2021. Currently in day 47 of 100 days of the course.
 [Project 8](08-MoonShot) - *MoonShot*
 
 [Project 9](09-Drawing) - *Drawing*
+
+[Project 10](10-MilestoneProject7-9) - *Habits app*
