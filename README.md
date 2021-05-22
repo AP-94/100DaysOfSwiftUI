@@ -33,4 +33,4 @@ Last updated 18/05/2021. Currently in day 47 of 100 days of the course.
 
 [Project 9](09-Drawing) - *Drawing*
 
-[Project 10](10-MilestoneProject7-9) - *Habits app*
+[Milestone Project 7-9](MilestoneProject7-9) - *Habits app*
