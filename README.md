@@ -5,7 +5,7 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 22/05/2021. Currently in day 48 of 100 days of the course.
+Last updated 13/06/2021. Currently in day 57 of 100 days of the course.
 
 ## Projects
 
@@ -36,3 +36,5 @@ Last updated 22/05/2021. Currently in day 48 of 100 days of the course.
 [Milestone Project 7-9](MilestoneProject7-9) - *Habits app*
 
 [Project 10](10-CupcakeCorner) - *CupcakeCorner*
+
+[Project 11](11-Bookworm) - *BookWorm*
