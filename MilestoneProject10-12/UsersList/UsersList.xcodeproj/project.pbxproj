@@ -18,6 +18,12 @@
 		D2E00870267BB55C0017E6F6 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E0086F267BB55C0017E6F6 /* UserView.swift */; };
 		D2E00873267E1E4F0017E6F6 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E00872267E1E4F0017E6F6 /* UserDetailView.swift */; };
 		D2E00876267E1FED0017E6F6 /* ObservedUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E00875267E1FED0017E6F6 /* ObservedUsers.swift */; };
+		D2E00897267E55E70017E6F6 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E00891267E55E70017E6F6 /* Tag+CoreDataClass.swift */; };
+		D2E00898267E55E70017E6F6 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E00892267E55E70017E6F6 /* Tag+CoreDataProperties.swift */; };
+		D2E00899267E55E70017E6F6 /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E00893267E55E70017E6F6 /* Friend+CoreDataClass.swift */; };
+		D2E0089A267E55E70017E6F6 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E00894267E55E70017E6F6 /* Friend+CoreDataProperties.swift */; };
+		D2E008AC267E7A1C0017E6F6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E008AA267E7A1C0017E6F6 /* User+CoreDataClass.swift */; };
+		D2E008AD267E7A1C0017E6F6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E008AB267E7A1C0017E6F6 /* User+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +40,12 @@
 		D2E0086F267BB55C0017E6F6 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		D2E00872267E1E4F0017E6F6 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		D2E00875267E1FED0017E6F6 /* ObservedUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ObservedUsers.swift; path = UsersList/Views/ObservedUsers.swift; sourceTree = SOURCE_ROOT; };
+		D2E00891267E55E70017E6F6 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D2E00892267E55E70017E6F6 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		D2E00893267E55E70017E6F6 /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D2E00894267E55E70017E6F6 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		D2E008AA267E7A1C0017E6F6 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D2E008AB267E7A1C0017E6F6 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,12 @@
 		D2E0084A267BAE850017E6F6 /* UsersList */ = {
 			isa = PBXGroup;
 			children = (
+				D2E008AA267E7A1C0017E6F6 /* User+CoreDataClass.swift */,
+				D2E008AB267E7A1C0017E6F6 /* User+CoreDataProperties.swift */,
+				D2E00891267E55E70017E6F6 /* Tag+CoreDataClass.swift */,
+				D2E00892267E55E70017E6F6 /* Tag+CoreDataProperties.swift */,
+				D2E00893267E55E70017E6F6 /* Friend+CoreDataClass.swift */,
+				D2E00894267E55E70017E6F6 /* Friend+CoreDataProperties.swift */,
 				D2E0086E267BB5520017E6F6 /* Views */,
 				D2E00863267BAF530017E6F6 /* Models */,
 				D2E0084B267BAE850017E6F6 /* UsersListApp.swift */,
@@ -175,12 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E00897267E55E70017E6F6 /* Tag+CoreDataClass.swift in Sources */,
+				D2E00899267E55E70017E6F6 /* Friend+CoreDataClass.swift in Sources */,
 				D2E00876267E1FED0017E6F6 /* ObservedUsers.swift in Sources */,
 				D2E00858267BAE900017E6F6 /* UsersList.xcdatamodeld in Sources */,
 				D2E00868267BAF6A0017E6F6 /* FriendModel.swift in Sources */,
+				D2E0089A267E55E70017E6F6 /* Friend+CoreDataProperties.swift in Sources */,
+				D2E008AC267E7A1C0017E6F6 /* User+CoreDataClass.swift in Sources */,
 				D2E00855267BAE900017E6F6 /* Persistence.swift in Sources */,
+				D2E008AD267E7A1C0017E6F6 /* User+CoreDataProperties.swift in Sources */,
 				D2E0084E267BAE850017E6F6 /* ContentView.swift in Sources */,
 				D2E00873267E1E4F0017E6F6 /* UserDetailView.swift in Sources */,
+				D2E00898267E55E70017E6F6 /* Tag+CoreDataProperties.swift in Sources */,
 				D2E00865267BAF610017E6F6 /* UserModel.swift in Sources */,
 				D2E0084C267BAE850017E6F6 /* UsersListApp.swift in Sources */,
 				D2E00870267BB55C0017E6F6 /* UserView.swift in Sources */,

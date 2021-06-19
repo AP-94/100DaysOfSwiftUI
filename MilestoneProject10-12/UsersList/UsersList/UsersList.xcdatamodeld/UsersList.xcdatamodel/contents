@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Friend" representedClassName="Friend" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="friends" inverseEntity="User"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
     <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
+    <entity name="Tag" representedClassName="Tag" syncable="YES">
+        <attribute name="tag" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="tags" inverseEntity="User"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="tag"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="about" optional="YES" attributeType="String"/>
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="company" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="registered" optional="YES" attributeType="String"/>
+        <relationship name="friends" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Friend" inverseName="user" inverseEntity="Friend"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tag" inverseName="user" inverseEntity="Tag"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
     <elements>
+        <element name="Friend" positionX="-54" positionY="54" width="128" height="74"/>
         <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="Tag" positionX="-36" positionY="63" width="128" height="59"/>
+        <element name="User" positionX="-63" positionY="-9" width="128" height="194"/>
     </elements>
 </model>

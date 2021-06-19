@@ -10,6 +10,8 @@ This Project divides in 2 parts, more than parts, differents ways to aproach the
 - Day 60: Fetch data online
 - Day 61: Fetch data online and stored using core data
 
+This project is updated in the Core Data version, so all the parts of the day 60 is either commented or deleted.
+
 ## Challenges
 
 For day 60:
