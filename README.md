@@ -42,3 +42,5 @@ Last updated 19/06/2021. Currently in day 61 of 100 days of the course.
 [Project 12](12-CoreData) - *CoreData*
 
 [Milestone Project 10-12](MilestoneProject10-12) - *Users List app*
+
+[Project 13](13-Instafilter) - *Instafilter*
