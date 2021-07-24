@@ -5,7 +5,7 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 19/06/2021. Currently in day 61 of 100 days of the course.
+Last updated 24/07/2021. Currently in day 74 of 100 days of the course.
 
 ## Projects
 
@@ -42,3 +42,7 @@ Last updated 19/06/2021. Currently in day 61 of 100 days of the course.
 [Project 12](12-CoreData) - *CoreData*
 
 [Milestone Project 10-12](MilestoneProject10-12) - *Users List app*
+
+[Project 13](13-Instafilter) - *Instafilter*
+
+[Project 14](14-BucketList) - *BucketList*
