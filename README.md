@@ -44,5 +44,6 @@ Last updated 24/07/2021. Currently in day 74 of 100 days of the course.
 [Milestone Project 10-12](MilestoneProject10-12) - *Users List app*
 
 [Project 13](13-Instafilter) - *Instafilter*
+
 [Project 14](14-BucketList) - *BucketList*
 
