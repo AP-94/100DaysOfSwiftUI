@@ -5,7 +5,7 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 24/07/2021. Currently in day 74 of 100 days of the course.
+Last updated 25/07/2021. Currently in day 77 of 100 days of the course.
 
 ## Projects
 
