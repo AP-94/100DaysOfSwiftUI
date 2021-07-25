@@ -36,10 +36,13 @@ struct ContentView: View {
                     .padding()
                 }
                 
-                
-                List(usedWords, id: \.self) {
-                    Image(systemName: "\($0.count).circle")
-                    Text($0)
+                ///Day 75 accessibility changes
+                List(usedWords, id: \.self) { word in
+                    HStack {
+                        Image(systemName: "\(word.count).circle")
+                        Text(word)
+                    }
+                    .accessibility(label: Text("\(word), \(word.count) letters"))
                 }
                 
                 //Challenge 3: Score below list

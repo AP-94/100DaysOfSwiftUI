@@ -23,6 +23,8 @@ struct CheckoutView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: geometryReader.size.width)
+                        .accessibility(hidden: true)  /// PROJECT 15 ACCESSIBILITY - CHALLENGE 1
+                        
                     
                     Text("Your total is \(self.observedOrder.order.cost, specifier: "%.2f") $")
                         .font(.title)

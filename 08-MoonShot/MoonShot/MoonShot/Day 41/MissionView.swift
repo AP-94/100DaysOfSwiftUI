@@ -22,16 +22,20 @@ struct MissionView: View {
         GeometryReader { geometry in
             ScrollView(.vertical) {
                 VStack {
-                    Image(self.mission.image)
+                    ///PROJECT 15 - CHALLENGE 3
+                    Image(decorative: self.mission.image)
                         .resizable()
                         .scaledToFit()
                         .frame(maxWidth: geometry.size.width * 0.7)
                         .padding(.top)
                     
+                    
                     //CHALLENGE 1
                     Text("Launch Date: \(self.mission.formattedLaunchDate)")
                         .padding()
                         .font(.headline)
+                        ///PROJECT 15 - CHALLENGE 3
+                        .accessibility(value: Text("Launch date of mission: \(self.mission.formattedLaunchDate)"))
                     
                     Text(self.mission.description)
                         .padding()
@@ -48,6 +52,8 @@ struct MissionView: View {
                                     .frame(width: 83, height: 60)
                                     .clipShape(Capsule())
                                     .overlay(Capsule().stroke(Color.primary, lineWidth: 1.5))
+                                    ///PROJECT 15 - CHALLENGE 3
+                                    .accessibility(value: Text("Picture of crew member: \(crewMember.astronaut.name)"))
                                 
                                 VStack(alignment: .leading) {
                                     Text(crewMember.astronaut.name)
@@ -55,6 +61,9 @@ struct MissionView: View {
                                     Text(crewMember.role)
                                         .foregroundColor(crewMember.role == "Commander" ? .orange : .secondary)
                                 }
+                                ///PROJECT 15 - CHALLENGE 3
+                                .accessibilityElement(children: .ignore)
+                                .accessibility(label: Text("Astronaut \(crewMember.astronaut.name) with Role \(crewMember.role)"))
                                 
                                 Spacer()
                             }

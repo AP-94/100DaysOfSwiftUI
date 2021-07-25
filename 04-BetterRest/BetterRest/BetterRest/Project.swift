@@ -49,6 +49,8 @@ struct Project: View {
                         Stepper(value: $sleepAmount, in: 4...12, step: 0.25) {
                             Text("\(sleepAmount, specifier: "%g") hours")
                         }
+                        ///PROJECT 15 - CHALLENGE 2
+                        .accessibilityValue(Text("\(sleepAmount, specifier: "%g") hours"))
                     }}
                 
                 ///Challenge 1
@@ -72,6 +74,8 @@ struct Project: View {
                             }
                         }
                         .font(.headline)
+                        ///PROJECT 15 - CHALLENGE 2
+                        .accessibilityValue(Text("\(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount) cups")"))
                         
                         //                    Stepper(value: $coffeeAmount, in: 1...20) {
                         //                        if coffeeAmount == 1 {

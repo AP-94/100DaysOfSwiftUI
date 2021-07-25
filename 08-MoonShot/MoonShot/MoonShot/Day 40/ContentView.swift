@@ -19,21 +19,29 @@ struct ContentView: View {
         NavigationView {
             List(missions) { mission in
                 NavigationLink(
-                    destination: MissionView(mission: mission, astronauts: self.astronauts)) {
+                    destination: MissionView(mission: mission, astronauts: astronauts)) {
                     Image(mission.image)
                         .resizable()
                         .scaledToFit()
+                        ///PROJECT 15 - CHALLENGE 3
+                        .accessibility(value: Text("\(mission.displayName) emblem."))
                         .frame(width: 44, height: 44)
                     
                     VStack(alignment: .leading)  {
                         Text(mission.displayName)
                             .font(.headline)
+                            ///PROJECT 15 - CHALLENGE 3
+                            .accessibility(value: Text("Mission name: \(mission.displayName)"))
                         //CHALLENGE 3
                         if showMissionsDate {
                             Text(mission.formattedLaunchDate)
+                                ///PROJECT 15 - CHALLENGE 3
+                                .accessibility(value: Text("Launch date: \(mission.formattedLaunchDate)"))
                         } else {
                             ForEach(mission.crew, id: \.name) { crewMember in
                                 Text(getFullName(for: crewMember.name))
+                                    ///PROJECT 15 - CHALLENGE 3
+                                    .accessibility(value: Text("Crew member: \(getFullName(for: crewMember.name))"))
                             }
                         }
                     }
