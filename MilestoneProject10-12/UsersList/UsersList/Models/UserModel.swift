@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct UserModel: Codable, Hashable, Identifiable {
     static func == (lhs: UserModel, rhs: UserModel) -> Bool {
@@ -23,6 +24,7 @@ struct UserModel: Codable, Hashable, Identifiable {
     var registered: String?
     var tags: [String]?
     var friends: [FriendModel]?
+    var image: UIImage?
     
     enum CodingKeys: CodingKey {
         case id, isActive, name, age, company, email, address, about, registered, tags, friends

@@ -5,7 +5,7 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 25/07/2021. Currently in day 77 of 100 days of the course.
+Last updated 29/07/2021. Currently in day 79 of 100 days of the course.
 
 ## Projects
 
@@ -48,4 +48,6 @@ Last updated 25/07/2021. Currently in day 77 of 100 days of the course.
 [Project 14](14-BucketList) - *BucketList*
 
 [Project 15](15-Accessibility) - *Accessibility*
+
+[Milestone Project 13-15](MilestoneProject13-15) - *iForgetNames*
 
