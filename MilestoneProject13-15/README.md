@@ -7,8 +7,8 @@ and Day 78: https://www.hackingwithswift.com/100/swiftui/78
 
 This Project divides in 2 parts:
 
-- Day 60: ImagePicker and list of persons
-- Day 61: Added MapView and location of user
+- Day 77: ImagePicker and list of persons
+- Day 78: Added MapView and location of user
 
 ## Challenges
 
