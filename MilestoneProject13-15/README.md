@@ -14,7 +14,6 @@ This Project divides in 2 parts:
 
 For day 77:
 
-
 >- Wrap UIImagePickerController so it can be used to select photos.
 >- Detect when a new photo is imported, and immediately ask the user to name the photo.
 >- Save that name and photo somewhere safe.
@@ -28,5 +27,5 @@ For day 78:
 
 ## Screenshoots
 
-<img src="screenshots/mainView.png" width="414" height="896"/><img src="screenshots/userDetail1.png" width="414" height="896"/><img src="screenshots/userDetail2.png" width="414" height="896"/>
+<img src="screenshots/list.png" width="414" height="896"/><img src="screenshots/library.png" width="414" height="896"/><img src="screenshots/addPerson.png" width="414" height="896"/><img src="screenshots/personView.png" width="414" height="896"/>
 

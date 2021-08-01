@@ -58,6 +58,7 @@ struct ContentView: View {
                     InputNameView(observedUser: observedUser)
                 }
             }
+            .onAppear(perform: locationFetcher.start)
             
         }
     }

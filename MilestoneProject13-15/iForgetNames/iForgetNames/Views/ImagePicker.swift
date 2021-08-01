@@ -37,7 +37,7 @@ struct ImagePicker: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UIImagePickerController {
         let picker = UIImagePickerController()
         ///Mapkit Challenge: Added source type to use the camera and not the library of photos
-        picker.sourceType = .camera
+        //picker.sourceType = .camera
         picker.delegate = context.coordinator
         return picker
     }
