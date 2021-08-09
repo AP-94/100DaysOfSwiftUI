@@ -53,5 +53,5 @@ Last updated 10/08/2021. Currently in day 92 of 100 days of the course.
 
 [Project 16](16-HotProspects) - *HotProspects*
 
-[Project 17](17-FlashZilla) - *FlashZilla*
+[Project 17](17-Flashzilla) - *Flashzilla*
 
