@@ -19,4 +19,8 @@ Created a func to retrieve with the offset the correct color, not only setting o
 
 ## Screenshoots
 
-<img src="screenshots/emptyGame.png" width="414" height="896"/><img src="screenshots/correct.png" width="414" height="896"/><img src="screenshots/editCards.png" width="414" height="896"/><img src="screenshots/qr.png" width="414" height="896"/><img src="screenshots/settings.png" width="414" height="896"/><img src="screenshots/qr.png" width="414" height="896"/><img src="screenshots/gameOver.png" width="414" height="896"/><img src="screenshots/qr.png" width="414" height="896"/>
+<img src="screenshots/emptyGame.png" width="896" height="614"/>
+<img src="screenshots/correct.png" width="896" height="614"/>
+<img src="screenshots/editCards.png" width="896" height="614"/>
+<img src="screenshots/settings.png" width="896" height="614"/>
+<img src="screenshots/gameOver.png" width="896" height="614"/>
