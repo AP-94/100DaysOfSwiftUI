@@ -5,7 +5,7 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 
 ## Current Status
 
-Last updated 01/08/2021. Currently in day 86 of 100 days of the course.
+Last updated 10/08/2021. Currently in day 92 of 100 days of the course.
 
 ## Projects
 
@@ -52,4 +52,6 @@ Last updated 01/08/2021. Currently in day 86 of 100 days of the course.
 [Milestone Project 13-15](MilestoneProject13-15) - *iForgetNames*
 
 [Project 16](16-HotProspects) - *HotProspects*
+
+[Project 17](17-FlashZilla) - *FlashZilla*
 
