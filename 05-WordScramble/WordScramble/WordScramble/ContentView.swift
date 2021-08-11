@@ -22,7 +22,7 @@ struct ContentView: View {
             VStack {
                 HStack {
                     TextField("Enter your word", text: $newWord, onCommit: addNewWord)
-                        
+                    
                         .padding()
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .autocapitalization(.none)
@@ -33,16 +33,26 @@ struct ContentView: View {
                     }, label: {
                         Text("Add Word")
                     })
-                    .padding()
+                        .padding()
                 }
                 
                 ///Day 75 accessibility changes
-                List(usedWords, id: \.self) { word in
-                    HStack {
-                        Image(systemName: "\(word.count).circle")
-                        Text(word)
+                ///PROJECT 18 - CHALLENGE 2
+                GeometryReader { listProxy in
+                    List(self.usedWords, id: \.self) { word in
+                        GeometryReader { itemProxy in
+                            HStack {
+                                Image(systemName: "\(word.count).circle")
+                                Text(word)
+                            }
+                            .frame(width: itemProxy.size.width, alignment: .leading)
+                            .offset(x: self.getOffset(listProxy: listProxy, itemProxy: itemProxy), y: 0)
+                            .foregroundColor(Color(
+                                red: Double(itemProxy.frame(in: .global).minY / listProxy.size.height),
+                                green: 0.5,
+                                blue: 0.3))
+                        }
                     }
-                    .accessibility(label: Text("\(word), \(word.count) letters"))
                 }
                 
                 //Challenge 3: Score below list
@@ -58,8 +68,8 @@ struct ContentView: View {
             //Challenge 2: Left bar button to change word
             .navigationBarItems(leading:
                                     Button(action: startGame) {
-                                        Text("Change word")
-                                    }
+                Text("Change word")
+            }
             )
             .onAppear(perform: startGame)
             .alert(isPresented: $showError, content: {
@@ -152,6 +162,24 @@ struct ContentView: View {
         errorTitle = title
         errorMessage = message
         showError = true
+    }
+    
+    /// PROJECT 18 - CHALLENGE 2
+    private func getOffset(listProxy: GeometryProxy, itemProxy: GeometryProxy) -> CGFloat {
+        let listHeight = listProxy.size.height
+        let listStart = listProxy.frame(in: .global).minY
+        let itemStart = itemProxy.frame(in: .global).minY
+        
+        let itemPercent =  (itemStart - listStart) / listHeight * 100
+        
+        let thresholdPercent: CGFloat = 60
+        let indent: CGFloat = 9
+        
+        if itemPercent > thresholdPercent {
+            return (itemPercent - (thresholdPercent - 1)) * indent
+        }
+        
+        return 0
     }
 }
 

@@ -22,13 +22,19 @@ struct MissionView: View {
         GeometryReader { geometry in
             ScrollView(.vertical) {
                 VStack {
-                    ///PROJECT 15 - CHALLENGE 3
-                    Image(decorative: self.mission.image)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(maxWidth: geometry.size.width * 0.7)
-                        .padding(.top)
                     
+                    ///PROJECT 15 - CHALLENGE 3
+                    ///PROJECT 18 - CHALLENGE 1 (RESIZE IMAGE WHEN SCROLL)
+                    GeometryReader { geo in
+                        Image(decorative: self.mission.image)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: geo.size.width, height: geo.size.height)
+                            .padding(.top)
+                            .scaleEffect(1 - calculateScaleFor(headGeo: geometry, imageGeo: geo))
+                            .offset(x: 0, y: calculateScaleFor(headGeo: geometry, imageGeo: geo) * geo.size.height / 2)
+                    }
+                    .frame(height: geometry.size.width * 0.7)
                     
                     //CHALLENGE 1
                     Text("Launch Date: \(self.mission.formattedLaunchDate)")
@@ -92,6 +98,14 @@ struct MissionView: View {
         
         self.astronauts = matches
     }
+    
+    /// PROJECT 18 - CHALLENGE 1
+       private func calculateScaleFor(headGeo: GeometryProxy, imageGeo: GeometryProxy) -> CGFloat {
+           let imagePosition = imageGeo.frame(in: .global).minY
+           let safeAreaHeight = headGeo.safeAreaInsets.top
+
+           return -min(0.5, (imagePosition - safeAreaHeight) / 500)
+       }
     
 }
 
