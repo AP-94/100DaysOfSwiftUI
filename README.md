@@ -57,3 +57,5 @@ Last updated 11/08/2021. Currently in day 95 of 100 days of the course.
 
 [Project 18](18-LayoutAndGeometry) - *LayoutAndGeometry*
 
+[Milestone Project 16-18](MilestoneProject16-18) - *DiceRoller*
+
