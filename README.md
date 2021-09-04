@@ -6,7 +6,11 @@ Here is the link of the free course -> https://www.hackingwithswift.com/100/swif
 ## Current Status
 🚨 Final update 05/09/2021.  
 ✅ Day 100 of 100 days of the course. Course Completed :D!  
-👨🏻‍💻 Enjoy my journey.
+👨🏻‍💻 Enjoy my journey.  
+
+📖 Each project have all the code used by Paul in his videos, in one or another project you can see more code or something differente done my way to achieve the same outcome.  
+
+📝 Feel free to coment or improve anything.
 
 ## Projects
 
