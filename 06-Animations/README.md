@@ -9,7 +9,7 @@ You can fin the solutions to this challenge here -> [Challenges](Challenges)
 
 ## Screenshoots
 
-<img src="screenshots/navigationMenu.png" width="414" height="896"/><img src="screenshots/helloScreen.png" width="414" height="896"/>
+<img src="screenshots/navigationMenu.png" width="481" height="891"/><img src="screenshots/helloScreen.png" width="481" height="891"/>
 
 
 

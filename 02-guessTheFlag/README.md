@@ -21,4 +21,4 @@ Chagend the message when the user choose a wrong answer, now the Alert displays 
 
 ## Screenshoots
 
-<img src="screenshots/emptyScreen.png" width="414" height="896"/> <img src="screenshots/filledScreen.png" width="414" height="896"/>
+<img src="screenshots/emptyScreen.png" width="481" height="891"/> <img src="screenshots/filledScreen.png" width="481" height="891"/>

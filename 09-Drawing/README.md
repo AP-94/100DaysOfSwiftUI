@@ -20,4 +20,4 @@ Used the same example of Paul Hudson ColorCyclingCircle but changed the shape to
 
 ## Screenshoots
 
-<img src="screenshots/triangleAndArc.png" width="414" height="896"/><img src="screenshots/Cgaffine.png" width="414" height="896"/><img src="screenshots/colorCycleRectangle.png" width="414" height="896"/><img src="screenshots/arrow.png" width="414" height="896"/>
+<img src="screenshots/triangleAndArc.png" width="481" height="891"/><img src="screenshots/Cgaffine.png" width="414" height="891"/><img src="screenshots/colorCycleRectangle.png" width="414" height="891"/><img src="screenshots/arrow.png" width="414" height="891"/>

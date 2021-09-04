@@ -21,4 +21,4 @@ The tricky challenge, but very easy, simple button in the navigation, 2 State va
 
 ## Screenshoots
 
-<img src="screenshots/home.png" width="414" height="896"/><img src="screenshots/homeNames.png" width="414" height="896"/><img src="screenshots/missionDetail.png" width="414" height="896"/><img src="screenshots/missionDetail2.png" width="414" height="896"/><img src="screenshots/astronautDetail.png" width="414" height="896"/>
+<img src="screenshots/home.png" width="481" height="891"/><img src="screenshots/homeNames.png" width="481" height="891"/><img src="screenshots/missionDetail.png" width="481" height="891"/><img src="screenshots/missionDetail2.png" width="481" height="891"/><img src="screenshots/astronautDetail.png" width="481" height="891"/>

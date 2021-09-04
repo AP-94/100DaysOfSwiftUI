@@ -21,4 +21,4 @@ Got a litle solution, not the final, same ContentView in [Project 5](05-WordScra
 
 ## Screenshoots
 
-<img src="screenshots/frames.png" width="414" height="896"/><img src="screenshots/rows.png" width="414" height="896"/><img src="screenshots/horizontalScroll.png" width="414" height="896"/>
+<img src="screenshots/frames.png" width="481" height="891"/><img src="screenshots/rows.png" width="481" height="891"/><img src="screenshots/horizontalScroll.png" width="481" height="891"/>

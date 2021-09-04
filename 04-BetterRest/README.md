@@ -20,4 +20,4 @@ Removed the calculate button, and modified the calculatedBedTime func to return 
 
 ## Screenshoots
 
-<img src="screenshots/startScreen.png" width="414" height="896"/><img src="screenshots/changedScreen.png" width="414" height="896"/>
+<img src="screenshots/startScreen.png" width="481" height="891"/><img src="screenshots/changedScreen.png" width="481" height="891"/>

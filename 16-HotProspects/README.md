@@ -20,4 +20,4 @@ Added button in navigation bar to deploy the action sheet, added comparable to p
 
 ## Screenshoots
 
-<img src="screenshots/home.png" width="414" height="896"/><img src="screenshots/sortSheet.png" width="414" height="896"/><img src="screenshots/uncontacted.png" width="414" height="896"/><img src="screenshots/qr.png" width="414" height="896"/>
+<img src="screenshots/home.png" width="481" height="891"/><img src="screenshots/sortSheet.png" width="481" height="891"/><img src="screenshots/uncontacted.png" width="481" height="891"/><img src="screenshots/qr.png" width="481" height="891"/>

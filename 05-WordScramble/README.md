@@ -20,7 +20,7 @@ Added a VStack and to Text, one for the title and another one for the score (the
 
 ## Screenshoots
 
-<img src="screenshots/startScreen.png" width="414" height="896"/><img src="screenshots/changedScreen.png" width="414" height="896"/>
+<img src="screenshots/startScreen.png" width="481" height="891"/><img src="screenshots/changedScreen.png" width="481" height="891"/>
 
 
 

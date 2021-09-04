@@ -20,5 +20,5 @@ Added vars and alert to the content view, so when the biometric auth its not ava
 
 ## Screenshoots
 
-<img src="screenshots/home.png" width="414" height="896"/><img src="screenshots/addLocation.png" width="414" height="896"/>
-<img src="screenshots/alert.png" width="414" height="896"/>
+<img src="screenshots/home.png" width="481" height="891"/><img src="screenshots/addLocation.png" width="481" height="891"/>
+<img src="screenshots/alert.png" width="481" height="891"/>

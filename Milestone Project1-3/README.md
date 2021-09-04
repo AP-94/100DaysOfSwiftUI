@@ -27,4 +27,4 @@ Day 25: https://www.hackingwithswift.com/100/swiftui/25
 
 ## Screenshoots
 
-<img src="screenshots/screenshot.png" width="414" height="896"/><img src="screenshots/alert.png" width="414" height="896"/>
+<img src="screenshots/screenshot.png" width="481" height="891"/><img src="screenshots/alert.png" width="481" height="896"/>

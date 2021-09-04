@@ -27,5 +27,5 @@ For day 78:
 
 ## Screenshoots
 
-<img src="screenshots/list.png" width="414" height="896"/><img src="screenshots/library.png" width="414" height="896"/><img src="screenshots/addPerson.png" width="414" height="896"/><img src="screenshots/personView.png" width="414" height="896"/>
+<img src="screenshots/list.png" width="481" height="891"/><img src="screenshots/library.png" width="481" height="891"/><img src="screenshots/addPerson.png" width="481" height="891"/><img src="screenshots/personView.png" width="481" height="891"/>
 

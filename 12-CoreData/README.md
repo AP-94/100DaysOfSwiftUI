@@ -22,4 +22,4 @@ In the filteredList view added a enum of strings of each case that can be used a
 
 ## Screenshoots
 
-<img src="screenshots/mainChallenge.png" width="414" height="896"/><img src="screenshots/sortedView.png" width="414" height="896"/><img src="screenshots/filteredView.png" width="414" height="896"/>
+<img src="screenshots/mainChallenge.png" width="481" height="891"/><img src="screenshots/sortedView.png" width="481" height="891"/><img src="screenshots/filteredView.png" width="481" height="891"/>

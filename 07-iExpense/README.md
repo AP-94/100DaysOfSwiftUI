@@ -19,4 +19,4 @@ Added an alert to the Sheet, when the validations of a number dont pass, the cod
 
 ## Screenshoots
 
-<img src="screenshots/homeScreen.png" width="414" height="896"/><img src="screenshots/editMode.png" width="414" height="896"/><img src="screenshots/amountError.png" width="414" height="896"/>
+<img src="screenshots/homeScreen.png" width="481" height="891"/><img src="screenshots/editMode.png" width="481" height="891"/><img src="screenshots/amountError.png" width="481" height="891"/>

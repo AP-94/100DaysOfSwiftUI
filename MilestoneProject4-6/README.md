@@ -20,4 +20,4 @@ The only thing its not present in this challenge, its the animation part.
 
 ## Screenshoots
 
-<img src="screenshots/settingsView.png" width="414" height="896"/><img src="screenshots/gameView.png" width="414" height="896"/><img src="screenshots/gameOver.png" width="414" height="896"/>
+<img src="screenshots/settingsView.png" width="481" height="891"/><img src="screenshots/gameView.png" width="481" height="891"/><img src="screenshots/gameOver.png" width="481" height="891"/>

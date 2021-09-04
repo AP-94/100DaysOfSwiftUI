@@ -34,5 +34,5 @@ For day 61:
 
 ## Screenshoots
 
-<img src="screenshots/mainView.png" width="414" height="896"/><img src="screenshots/userDetail1.png" width="414" height="896"/><img src="screenshots/userDetail2.png" width="414" height="896"/>
+<img src="screenshots/mainView.png" width="481" height="891"/><img src="screenshots/userDetail1.png" width="481" height="891"/><img src="screenshots/userDetail2.png" width="481" height="891"/>
 

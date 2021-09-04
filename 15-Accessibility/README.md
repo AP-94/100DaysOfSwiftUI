@@ -21,4 +21,4 @@ In [Project 8](08-MoonShot) - *MoonShot*  there is accessibility modifier for al
 
 ## Screenshoots
 
-<img src="screenshots/accessibility.png" width="414" height="896"/>
+<img src="screenshots/accessibility.png" width="481" height="891"/>

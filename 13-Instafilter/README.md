@@ -20,4 +20,4 @@ Added a new @State var to get the current filter name, and changed the name of t
 
 ## Screenshoots
 
-<img src="screenshots/sliders.png" width="414" height="896"/><img src="screenshots/crystallize.png" width="414" height="896"/><img src="screenshots/challenge2.png" width="414" height="896"/><img src="screenshots/saveAlert.png" width="414" height="896"/>
+<img src="screenshots/sliders.png" width="481" height="891"/><img src="screenshots/crystallize.png" width="481" height="891"/><img src="screenshots/challenge2.png" width="481" height="891"/><img src="screenshots/saveAlert.png" width="481" height="891"/>

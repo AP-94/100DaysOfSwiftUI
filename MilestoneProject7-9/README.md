@@ -16,5 +16,5 @@ Day 47: https://www.hackingwithswift.com/100/swiftui/47
 
 ## Screenshoots
 
-<img src="screenshots/home.png" width="414" height="896"/><img src="screenshots/homeDelete.png" width="414" height="896"/><img src="screenshots/detail.png" width="414" height="896"/><img src="screenshots/addNew.png" width="414" height="896"/>
+<img src="screenshots/home.png" width="481" height="891"/><img src="screenshots/homeDelete.png" width="481" height="891"/><img src="screenshots/detail.png" width="481" height="891"/><img src="screenshots/addNew.png" width="481" height="891"/>
 

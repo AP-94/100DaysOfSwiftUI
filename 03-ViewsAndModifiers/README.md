@@ -24,4 +24,4 @@ You can go to the [Project 2](03-guessTheFlag) and see the changes, there is a c
 
 ## Screenshoots
 
-<img src="screenshots/filledScreen.png" width="414" height="896"/>
+<img src="screenshots/filledScreen.png" width="481" height="891"/>

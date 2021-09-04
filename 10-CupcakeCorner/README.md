@@ -19,4 +19,4 @@ It took me quite a time to understand how to do it, i searched a lot for knowing
 
 ## Screenshoots
 
-<img src="screenshots/main.png" width="414" height="896"/><img src="screenshots/mainFilled.png" width="414" height="896"/><img src="screenshots/address.png" width="414" height="896"/><img src="screenshots/challenge.png" width="414" height="896"/><img src="screenshots/checkout.png" width="414" height="896"/><img src="screenshots/checkoutdone.png" width="414" height="896"/>
+<img src="screenshots/main.png" width="481" height="891"/><img src="screenshots/mainFilled.png" width="481" height="891"/><img src="screenshots/address.png" width="481" height="891"/><img src="screenshots/challenge.png" width="481" height="891"/><img src="screenshots/checkout.png" width="481" height="891"/><img src="screenshots/checkoutdone.png" width="481" height="891"/>

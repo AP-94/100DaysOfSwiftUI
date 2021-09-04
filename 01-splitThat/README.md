@@ -19,4 +19,4 @@ Changed the picker to text field, and adding the property .keyboardType(.decimal
 
 ## Screenshoots
 
-<img src="screenshots/emptyScreen.png" width="414" height="896"/> <img src="screenshots/filledScreen.png" width="414" height="896"/>
+<img src="screenshots/emptyScreen.png" width="481" height="891"/> <img src="screenshots/filledScreen.png" width="481" height="891"/>

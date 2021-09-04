@@ -20,4 +20,4 @@ Added date (Date) attribute to the Book entity, and when a new book is created w
 
 ## Screenshoots
 
-<img src="screenshots/mainView.png" width="414" height="896"/><img src="screenshots/detailView.png" width="414" height="896"/><img src="screenshots/genreAlert.png" width="414" height="896"/>
+<img src="screenshots/mainView.png" width="481" height="891"/><img src="screenshots/detailView.png" width="481" height="891"/><img src="screenshots/genreAlert.png" width="481" height="891"/>
