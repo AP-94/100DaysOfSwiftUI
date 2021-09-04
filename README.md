@@ -4,8 +4,9 @@ Here you will find my journey through the "100 days of swiftUI" course of Paul H
 Here is the link of the free course -> https://www.hackingwithswift.com/100/swiftui
 
 ## Current Status
-
-Last updated 11/08/2021. Currently in day 95 of 100 days of the course.
+Final update 05/09/2021. 
+Day 100 of 100 days of the course. Course Completed :D!
+Enjoy my journey.
 
 ## Projects
 
@@ -59,3 +60,4 @@ Last updated 11/08/2021. Currently in day 95 of 100 days of the course.
 
 [Milestone Project 16-18](MilestoneProject16-18) - *DiceRoller*
 
+[Project 19](19-SnowSeeker) - *SnowSeeker*
