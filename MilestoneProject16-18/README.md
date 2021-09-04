@@ -14,7 +14,7 @@ Day 95: https://www.hackingwithswift.com/100/swiftui/95
 
 ## Screenshoots
 
-<img src="screenshots/home.png" width="414" height="896"/><img src="screenshots/homeAnimated.png" width="414" height="896"/><img src="screenshots/homeDiceSelected.png" width="414" height="896"/><img src="screenshots/homeWithResult.png" width="414" height="896"/><img src="screenshots/resultsScreen.png" width="414" height="896"/>
+<img src="screenshots/home.png" width="481" height="891"/><img src="screenshots/homeAnimated.png" width="481" height="891"/><img src="screenshots/homeDiceSelected.png" width="481" height="891"/><img src="screenshots/homeWithResult.png" width="481" height="891"/><img src="screenshots/resultsScreen.png" width="481" height="891"/>
 
 
 
